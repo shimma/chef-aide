@@ -5,7 +5,4 @@ maintainer          "Elliot Kendall"
 maintainer_email    "elliot.kendall@ucsf.edu"
 license             "BSD"
 version             "0.1.2"
-
-supports            "centos", "ubuntu"
-
 recipe              "aide", "Installs and configures AIDE HIDS"
