@@ -9,6 +9,7 @@
 # rolling out to any non development enviorment.
 default["aide"]["testmode"] = "false"
 default["aide"]["report_url"] = "stdout"
+default["aide"]["logpath"] = "/var/log/aide/aide.log"
 
 case platform
 when "centos","redhat","fedora"
